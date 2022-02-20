@@ -1,0 +1,30 @@
+body {
+    background: #eee;
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+  }
+  .goblin, .myCell {
+    box-sizing: border-box;
+    height: 120px;
+    width: 120px;
+    margin: 0;
+    padding: 0;
+   }
+   .goblin {
+     background-image: url('../img/goblin.png');
+   }
+  .myCell {
+    border-collapse: collapse;
+    border: solid 1px #bbbbbb;
+  }
+  .invisible {
+    display: none;
+  }
+  .fbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 480px;
+    height: 480px;
+  }
