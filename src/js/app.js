@@ -1,4 +1,3 @@
-/* eslint-disable no-plusplus */
 import GameState from './GameState';
 
 function runGoblin() {
@@ -24,8 +23,6 @@ document.addEventListener('DOMContentLoaded', () => {
   goblin.id = 'goblin';
   goblin.classList.add('goblin');
   goblin.classList.add('invisible');
-  // const goblinPic = AutoAddChild(goblin, 'img');
-  // goblinPic.src = './img/goblin.png';
   const gamePad = document.getElementById('gamePad');
   let htmlVar = '';
   for (let y = 0; y < 16; y++) {
@@ -34,6 +31,4 @@ document.addEventListener('DOMContentLoaded', () => {
   gamePad.innerHTML = htmlVar;
   GameState.currentPosition = -1;
   setInterval(() => { runGoblin(); }, 1000);
-  // eslint-disable-next-line no-console
-  console.log('it works!');
 });
