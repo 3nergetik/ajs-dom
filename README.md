@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/vwrbrice4kklfj2v?svg=true)](https://ci.appveyor.com/project/3nergetik/ajs-dom)
